@@ -38,7 +38,7 @@ const Sidebar = () => {
           <span>Profile</span>
         </div>
       </div>
-      <div className="menu-item more">
+     <div className="menu-item more">
         <i className="fa-solid fa-bars"></i>
         <span>More</span>
       </div>

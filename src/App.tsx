@@ -1,17 +1,16 @@
 import "./App.scss"
-import Feed from "./Components/Feed"
+import HomePage from "./Components/HomePage"
 import Sidebar from "./Components/Sidebar"
 import StoryIcons from "./Components/StoryIcons"
-
 
 const App = () => {
   return (
     <>
     <Sidebar />
     <StoryIcons />
-    <Feed />
+    <HomePage />  
     </>
   )
 }
 
-export default App
+export default App;
