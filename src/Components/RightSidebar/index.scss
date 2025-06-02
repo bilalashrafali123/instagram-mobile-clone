@@ -1,123 +1,130 @@
 .right-sidebar {
-  width: 100%;
-  max-width: 250px;
-  margin-left: auto;
-  color: white;
-  font-family: Arial, sans-serif;
-  padding-top: 30px;
-}
-
-.current-user {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-bottom: 20px;
-
-  img {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-  }
-
-  .user-info {
-    flex: 1;
-    margin: 0 10px;
-
-    .username {
-      font-weight: bold;
-      font-size: 14px;
-      display: block;
-    }
-
-    .name {
-      font-size: 12px;
-      color: gray;
-    }
-  }
-
-  .switch {
-    color: #0095f6;
-    font-size: 12px;
-    cursor: pointer;
-  }
-}
-
-.suggestions-header {
-  display: flex;
-  justify-content: space-between;
-  font-size: 14px;
-  color: gray;
-  margin-bottom: 10px;
-
-  .see-all {
-    font-size: 12px;
-    cursor: pointer;
+    width: 100%;
+    max-width: 250px;
+    margin-left: auto;
     color: white;
-  }
-}
-
-.suggestion {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-bottom: 14px;
-
-  img {
-    width: 34px;
-    height: 34px;
-    border-radius: 50%;
-  }
-
-  .user-info {
-    flex: 1;
-    margin: 0 10px;
-
-    .username {
-      font-weight: bold;
-      font-size: 13px;
-      display: block;
+    font-family: Arial, sans-serif;
+    padding-top: 30px;
+  
+    .current-user {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 20px;
+  
+      img {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+      }
+  
+      .user-info {
+        flex: 1;
+        margin: 0 10px;
+  
+        .username {
+          font-weight: bold;
+          font-size: 14px;
+          display: block;
+        }
+  
+        .name {
+          font-size: 12px;
+          color: gray;
+        }
+      }
+  
+      .switch {
+        color: #0095f6;
+        font-size: 12px;
+        cursor: pointer;
+      }
     }
-
-    .reason {
-      font-size: 11px;
+  
+    .suggestions-header {
+      display: flex;
+      justify-content: space-between;
+      font-size: 14px;
       color: gray;
+      margin-bottom: 10px;
+  
+      .see-all {
+        font-size: 12px;
+        cursor: pointer;
+        color: white;
+      }
+    }
+  
+    .suggestion {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 14px;
+  
+      img {
+        width: 34px;
+        height: 34px;
+        border-radius: 50%;
+      }
+  
+      .user-info {
+        flex: 1;
+        margin: 0 10px;
+  
+        .username {
+          font-weight: bold;
+          font-size: 13px;
+          display: block;
+        }
+  
+        .reason {
+          font-size: 11px;
+          color: gray;
+        }
+      }
+  
+      .follow {
+        color: #0095f6;
+        font-size: 12px;
+        cursor: pointer;
+      }
+    }
+  
+    .footer-section {
+      width: 100%;
+  
+      .footer-links {
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+        margin-top: 40px;
+  
+        a {
+          text-decoration: none;
+          list-style: none;
+          color: gray;
+          font-size: 10px;
+        }
+      }
+    }
+  
+    .footer-copyright-section {
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+  
+      a {
+        color: gray;
+        text-decoration: none;
+        list-style: none;
+        font-size: 10px;
+      }
     }
   }
-
-  .follow {
-    color: #0095f6;
-    font-size: 12px;
-    cursor: pointer;
+  
+  @media (max-width: 768px) {
+    .right-sidebar {
+      display: none;
+    }
   }
-}
-
-.footer-section {
-  width: 100%;
-
-  .footer-links {
-    display: flex;
-    gap: 10px;
-    justify-content: center;
-    margin-top: 40px;
-  }
-
-  .footer-links a {
-    text-decoration: none;
-    list-style: none;
-    color: gray;
-    font-size: 10px;
-  }
-}
-
-.footer-copyright-section {
-  display: flex;
-  justify-content: center;
-  margin-top: 20px;
-
-  a {
-    color: gray;
-    text-decoration: none;
-    list-style: none;
-    font-size: 10px;
-  }
-}
+  

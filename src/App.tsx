@@ -1,4 +1,5 @@
 import "./App.scss";
+import BottomNavbar from "./Components/BottomNavbar";
 import Feed from "./Components/Feed";
 import RightSidebar from "./Components/RightSidebar";
 import Sidebar from "./Components/Sidebar";
@@ -10,11 +11,12 @@ const App = () => {
       <Sidebar />
       <StoryIcons />
       <div className="container">
-      <div className="home-layout">
-        <Feed />
-        <RightSidebar />
+        <div className="home-layout">
+          <Feed />
+          <RightSidebar />
+        </div>
       </div>
-    </div>
+      <BottomNavbar />
     </>
   );
 };
