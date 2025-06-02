@@ -2,8 +2,8 @@ import "./index.scss";
 
 const StoryIcons = () => {
   return (
-  <div className="container">
-    <div className="story-wrapper">
+    <div className="container">
+      <div className="story-wrapper">
         <div className="story-circle">
           <div className="circle-image">
             <div className="plus-badge">+</div>
@@ -39,7 +39,7 @@ const StoryIcons = () => {
           <span className="story-name text-white">Anum</span>
         </div>
       </div>
-  </div>
+    </div>
   );
 };
 

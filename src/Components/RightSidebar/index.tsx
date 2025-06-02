@@ -61,9 +61,9 @@ const RightSidebar = () => {
           &nbsp;
           <a href="">&copy; 2025 Instagram from Meta</a>
         </div>
-    </footer>
+      </footer>
     </div>
-);
+  );
 };
 
 export default RightSidebar;

@@ -28,7 +28,9 @@ const Feed = () => {
             </div>
             <i className="fa-regular fa-bookmark"></i>
           </div>
-          <div className="post-likes">Liked by <b>ahmed_92</b> and others</div>
+          <div className="post-likes">
+            Liked by <b>ahmed_92</b> and others
+          </div>
           <div className="post-caption">
             <b>zara_k</b> What a beautiful sunset!
           </div>
