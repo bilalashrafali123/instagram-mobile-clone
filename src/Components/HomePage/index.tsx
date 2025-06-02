@@ -4,7 +4,7 @@ import "./index.scss"
 
 const HomePage = () => {
   return (
-    <div className="container">
+      <div className="container">
       <div className="home-layout">
         <Feed />
         <RightSidebar />
