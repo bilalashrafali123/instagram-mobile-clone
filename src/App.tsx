@@ -1,4 +1,5 @@
 import "./App.scss"
+import Feed from "./Components/Feed"
 import Sidebar from "./Components/Sidebar"
 import StoryIcons from "./Components/StoryIcons"
 
@@ -8,6 +9,7 @@ const App = () => {
     <>
     <Sidebar />
     <StoryIcons />
+    <Feed />
     </>
   )
 }

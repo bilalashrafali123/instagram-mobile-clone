@@ -4,7 +4,6 @@ const Sidebar = () => {
   return (
     <div className="sidebar">
       <div className="logo">Instagram</div>
-
       <div className="menu">
         <div className="menu-item">
           <i className="fa-solid fa-house"></i>
@@ -39,7 +38,6 @@ const Sidebar = () => {
           <span>Profile</span>
         </div>
       </div>
-
       <div className="menu-item more">
         <i className="fa-solid fa-bars"></i>
         <span>More</span>
