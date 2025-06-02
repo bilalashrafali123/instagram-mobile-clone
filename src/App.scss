@@ -6,6 +6,16 @@
     font-family: "Poppins", sans-serif;
 }
 
+.container {
+  width: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
+}
 
 
-  
+.home-layout {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-top: 20px;
+  }

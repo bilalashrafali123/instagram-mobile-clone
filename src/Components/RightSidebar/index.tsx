@@ -55,10 +55,7 @@ const RightSidebar = () => {
           <a href="#">MetaAI</a>
         </div>
         <div className="footer-copyright-section">
-          <a href="#">
-            English<span></span>
-          </a>
-          &nbsp;
+         &nbsp;
           <a href="">&copy; 2025 Instagram from Meta</a>
         </div>
       </footer>

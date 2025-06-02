@@ -1,5 +1,6 @@
 import "./App.scss";
-import HomePage from "./Components/HomePage";
+import Feed from "./Components/Feed";
+import RightSidebar from "./Components/RightSidebar";
 import Sidebar from "./Components/Sidebar";
 import StoryIcons from "./Components/StoryIcons";
 
@@ -8,7 +9,12 @@ const App = () => {
     <>
       <Sidebar />
       <StoryIcons />
-      <HomePage />
+      <div className="container">
+      <div className="home-layout">
+        <Feed />
+        <RightSidebar />
+      </div>
+    </div>
     </>
   );
 };
