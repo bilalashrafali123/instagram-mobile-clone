@@ -1,12 +1,12 @@
 import "./App.scss"
-import Navbar from "./Components/Navbar"
+import Sidebar from "./Components/Sidebar"
 import StoryIcons from "./Components/StoryIcons"
 
 
 const App = () => {
   return (
     <>
-    <Navbar />
+    <Sidebar />
     <StoryIcons />
     </>
   )

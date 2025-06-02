@@ -45,22 +45,6 @@ const StoryIcons = () => {
           <div className="circle-image"></div>
           <span className="story-name text-white">Sara</span>
         </div>
-        <div className="story-circle">
-          <div className="circle-image"></div>
-          <span className="story-name text-white">Sara</span>
-        </div>
-        <div className="story-circle">
-          <div className="circle-image"></div>
-          <span className="story-name text-white">Sara</span>
-        </div>
-        <div className="story-circle">
-          <div className="circle-image"></div>
-          <span className="story-name text-white">Sara</span>
-        </div>
-        <div className="story-circle">
-          <div className="circle-image"></div>
-          <span className="story-name text-white">Sara</span>
-        </div>
       </div>
     </div>
   );

@@ -1,0 +1,56 @@
+.sidebar {
+  width: 240px;
+  height: 100vh;
+  padding: 20px;
+  background-color: black;
+  border-right: 1px solid #333;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: fixed;
+  left: 0;
+  top: 0;
+
+  .logo {
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+
+  .menu {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+
+    .menu-item {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      color: white;
+      font-size: 18px;
+      cursor: pointer;
+      transition: 0.2s;
+
+      &:hover {
+        opacity: 0.8;
+      }
+
+      i {
+        font-size: 22px;
+      }
+    }
+  }
+
+  .more {
+    margin-top: 40px;
+    color: white;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    cursor: pointer;
+  }
+}
