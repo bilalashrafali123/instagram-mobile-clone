@@ -34,10 +34,7 @@ const StoryIcons = () => {
           <div className="circle-image"></div>
           <span className="story-name text-white">Shumail</span>
         </div>
-        <div className="story-circle">
-          <div className="circle-image"></div>
-          <span className="story-name text-white">Anum</span>
-        </div>
+        
       </div>
     </div>
   );
